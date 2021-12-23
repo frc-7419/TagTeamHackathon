@@ -28,4 +28,8 @@ public class StepTracker {
         }
     }
 
+    public int activeDays() {
+        return numActiveDays;
+    }
+
 }
