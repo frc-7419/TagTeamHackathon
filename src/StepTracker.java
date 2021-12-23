@@ -11,4 +11,8 @@ public class StepTracker {
         numActiveDays = 0;
     }
 
+    public void dailySteps(int steps) {
+        
+    }
+
 }
