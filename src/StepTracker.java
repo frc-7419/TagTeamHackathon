@@ -1,6 +1,9 @@
-public class Runner {
+public class StepTracker {
     public static void main(String[] args) {
-        
+        int minSteps;
+        int totalSteps;
+        int numDays;
+        int numActiveDays;
         // uncomment the following lines of code to test if you have the correct output
 
         /*
