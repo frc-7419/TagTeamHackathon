@@ -16,4 +16,11 @@ public class StepTracker {
         
 
     }
+    public void addDailySteps(int steps) {
+        this.totalSteps += steps;
+        this.numDays++;
+        if (steps >= this.minSteps) {
+            this.numActiveDays++;
+        }
+    }       
 }
