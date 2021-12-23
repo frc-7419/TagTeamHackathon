@@ -23,4 +23,8 @@ public class StepTracker {
             this.numActiveDays++;
         }
     }       
+
+    public double averageSteps() {
+        return totalSteps/numActiveDays;
+    }
 }
