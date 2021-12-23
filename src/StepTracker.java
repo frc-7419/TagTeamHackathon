@@ -25,6 +25,6 @@ public class StepTracker {
     }       
 
     public double averageSteps() {
-        return totalSteps/numDays;
+        return this.totalSteps/this.numDays;
     }
 }
