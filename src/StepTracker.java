@@ -24,3 +24,8 @@ if (steps>=minSteps){
     numActiveDays++;
 }
 }
+
+public double averageSteps{
+    return totalSteps/numDays;
+    
+}
