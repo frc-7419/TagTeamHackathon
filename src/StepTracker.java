@@ -16,3 +16,11 @@ public StepTracker(int threshold){
     numDays = 0;
     numActiveDays = 0;
 }
+
+public void addDailySteps(int steps){
+    numDays++;
+    totalSteps+=steps
+if (steps>=minSteps){
+    numActiveDays++;
+}
+}
