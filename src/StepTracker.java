@@ -27,5 +27,9 @@ if (steps>=minSteps){
 
 public double averageSteps{
     return totalSteps/numDays;
-    
+
+}
+
+public int activeDays(){
+    return numActiveDays;
 }
