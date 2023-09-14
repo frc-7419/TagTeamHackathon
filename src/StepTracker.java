@@ -4,7 +4,7 @@ public class StepTracker {
     private int numDays;
     private int numActiveDays;
 
-    public StepTracker(int threshold, int minSteps, int totalSteps, int numDays, int numActiveDays) {
+    public StepTracker(int threshold) {
          minSteps = threshold;
          totalSteps = 0;
          numDays = 0;
@@ -25,7 +25,4 @@ public class StepTracker {
         return numActiveDays;
     }
 
-    public static void main(String[] args) {
-
-    }
 }
