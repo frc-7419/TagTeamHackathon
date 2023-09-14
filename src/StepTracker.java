@@ -13,16 +13,30 @@ public class StepTracker {
 
     public void addDailySteps(int steps) {
         totalSteps += steps;
+
+        if(steps > minSteps){
+            numDays++;
+            numActiveDays++;
+        }
+        else{
+            numActiveDays = 0;
+
+        }
     }
     int exampleVar;
     int exampleVar2;
     int exampleVar3;
     int exampleVar4;
 
+    
+
     public int averageSteps() {
         return totalSteps/numDays;
     }
     public static String exampleMethod(int i) {
         return "good stuff";
+    }
+    public int activeDays(){
+        return numActiveDays;
     }
 }
