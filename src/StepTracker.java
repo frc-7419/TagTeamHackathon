@@ -13,7 +13,7 @@ public class StepTracker {
 
     public void addDailySteps(int steps) {
         totalSteps += steps;
-      
+    }
     int exampleVar;
     int exampleVar2;
     int exampleVar3;
