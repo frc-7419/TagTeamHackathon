@@ -5,10 +5,14 @@ public class StepTracker {
     private int numActiveDays;
 
     public StepTracker(int threshold) {
-        minSteps = threshold;
-        totalSteps = 0;
-        numDays = 0;
-        numActiveDays = 0;
+        int minSteps = threshold;
+        int totalSteps = 0;
+        int numDays = 0;
+        int numActiveDays = 0;
+    }
+
+    public static void addDailySteps(int steps) {
+        totalStepps+=steps;
     }
 
     public static void main(String[] args) {
