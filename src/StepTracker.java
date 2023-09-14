@@ -9,4 +9,8 @@ public class StepTracker {
         numDays = 0;
         numActiveDays = 0;
     }
+
+    public void addDailySteps(int steps) {
+        totalSteps += steps;
+    }
 }
