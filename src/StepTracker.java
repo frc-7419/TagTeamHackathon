@@ -20,4 +20,7 @@ public class StepTracker {
     public int activeDays(){
         return numActiveDays;
     }
+    public void averageSteps(){
+        return totalSteps/numDays;
+    }
 }
