@@ -17,4 +17,7 @@ public class StepTracker {
             numActiveDays ++;
         }
     }
+    public int activeDays(){
+        return numActiveDays;
+    }
 }
