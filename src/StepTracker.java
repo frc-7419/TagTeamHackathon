@@ -11,8 +11,12 @@ public class StepTracker {
         int numActiveDays = 0;
     }
 
-    public static void addDailySteps(int steps) {
-        totalStepps+=steps;
+    public void addDailySteps(int steps) {
+        totalSteps+=steps;
+    }
+
+    public double averageSteps() {
+            return (double) totalSteps / numDays;
     }
 
     public static void main(String[] args) {
