@@ -25,5 +25,3 @@ public class StepTracker {
         return 0;
     }
 }
-
-asfdasdfasdf
