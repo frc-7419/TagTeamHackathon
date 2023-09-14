@@ -19,7 +19,7 @@ public class StepTracker {
     int exampleVar3;
     int exampleVar4;
 
-    public void averageSteps() {
+    public int averageSteps() {
         return totalSteps/numDays;
     }
     public static String exampleMethod(int i) {
