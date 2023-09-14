@@ -1,10 +1,16 @@
 public class StepTracker {
-    int exampleVar;
-    int exampleVar2;
-    int exampleVar3;
-    int exampleVar4;
+    private int minStep;
+    private int totalSteps;
+    private int numDays;
+    private int numActiveDays;
+    public StepTracker(int threshold) {
+        minStep = threshold;
+        totalSteps = 0;
+        numDays = 0;
+        numActiveDays = 0;
+    }
 
-    public static String exampleMethod(int i) {
-        return "good stuff";
+    public void addDailySteps(int steps) {
+        totalSteps += steps;
     }
 }
