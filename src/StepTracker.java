@@ -1,10 +1,20 @@
 public class StepTracker {
-    int exampleVar;
-    int exampleVar2;
-    int exampleVar3;
-    int exampleVar4;
+    private int minSteps;
+    private int totalSteps;
+    private int numDays;
+    private int numActiveDays;
 
-    public static String exampleMethod(int i) {
-        return "good stuff";
+    public StepTracker(int minSteps){
+        this.minSteps = minSteps;
+        this.totalSteps = 0;
+        this.numDays = 0;
+        this.numActiveDays = 0;
+    }
+    public void addDailySteps(int steps){
+        totalSteps += steps;
+        numDays++;
+        if(steps > minSteps){
+            numActiveDays ++;
+        }
     }
 }
