@@ -3,12 +3,14 @@
  */
 public class StepTracker {
 
-    public static void main(String[] args) {
-        int minSteps;
-        int totalSteps;
-        int numDays;
-        int numActiveDays;
-        
-
-    }
+    private int minSteps;
+    private int totalSteps;
+    private int numDays;
+    private int numActiveDays;
+    public StepTracker(int threshold){
+            this.minSteps = threshold;
+            this.totalSteps = 0;
+            this.numDays = 0;
+            this.numActiveDays = 0;
+        }
 }
