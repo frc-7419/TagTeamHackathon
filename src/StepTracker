@@ -1,0 +1,10 @@
+public class StepTracker {
+    int minSteps = 0;
+    int totalSteps = 0;
+    int numbDays = 0;
+    int numbActiveDays = 0;
+
+    public static void main (
+        // yablablabl
+    )
+}
