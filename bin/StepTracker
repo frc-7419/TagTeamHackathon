@@ -4,6 +4,9 @@ public class StepTracker {
     int numbDays = 0;
     int numbActiveDays = 0;
 
+    public Main(int threshold) {
+        minSteps = threshold;
+    }
     public static void main (
         // yablablabl
     )
